@@ -16,7 +16,10 @@
         font-size: 21px;
     }
     .billbord__image {
-        height: 350px;
+        height: 320px;
+    }
+    .billbord__bottom {
+        margin-top: 32px;
     }
     .billbord__image img {
         width: 1100px;
@@ -296,6 +299,7 @@
         width: 80px;
         height: 80px;
         border-radius: 32px;
+        box-shadow: 0 7px 27px 0 rgba(247, 128, 0, 0.5);
     }
     .item-box__icon img {
         width: 48px;
