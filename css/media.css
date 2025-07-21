@@ -167,7 +167,7 @@
     .item-box__icon {
         width: 85px;
         height: 85px;
-        border-radius: 27px;
+        border-radius: 32px;
     }
     .item-box {
         padding: 20px;
@@ -298,7 +298,6 @@
     .item-box__icon {
         width: 80px;
         height: 80px;
-        border-radius: 32px;
         box-shadow: 0 7px 27px 0 rgba(247, 128, 0, 0.5);
     }
     .item-box__icon img {
