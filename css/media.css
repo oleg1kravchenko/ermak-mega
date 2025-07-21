@@ -352,4 +352,7 @@
     .consultation__image {
         top: 77px;
     }
+    .item-question__content {
+        padding-right: 8px;
+    }
 }
