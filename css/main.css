@@ -1,0 +1,423 @@
+.billbord {
+    padding-bottom: 80px;
+    font-family: "PTSans";
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    color: #000;
+}
+.billbord__title {
+    font-size: 72px;
+    margin-bottom: 16px;
+    line-height: 133%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.billbord__title span {
+    color: #f78000
+}
+.billbord__descr {
+    font-size: 48px;
+    margin-bottom: 24px;
+    line-height: 133%;
+}
+.billbord__text {
+    font-size: 24px;
+    line-height: 133%;
+}
+.billbord__text ul li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+    list-style-type: none;
+}
+.billbord__text ul li::before {
+    position: absolute;
+    top: 0;
+    left: 3px;
+    content: "•";
+}
+.billbord__text ul li:last-child {
+    margin-bottom: 0;
+}
+.billbord__text ul {
+    padding: 0;
+    margin: 0;
+}
+.billbord__image {
+    height: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.billbord__image img {
+    left: -191px;
+    top: 22px;
+    position: relative;
+    width: auto;
+    height: auto;
+    max-width: initial;
+    pointer-events: none;
+}
+.billbord .container {
+    padding-top: 96px;
+    position: relative;
+    z-index: 1;
+}
+.billbord__name {
+    top: 40px;
+    left: 15px;
+    right: 15px;
+    position: absolute;
+    z-index: -1;
+}
+.billbord__name img {
+    width: 100%;
+    height: auto;
+}
+.billbord__bottom {
+    margin-top: 64px;
+}
+.item-billbord {
+    padding: 40px;
+    font-size: 24px;
+    line-height: 133%;
+    border-radius: 24px;
+    min-height: 100%;
+    backdrop-filter: blur(25px);
+    background: rgba(221, 221, 221, 0.8);
+    position: relative;
+    z-index: 1;
+}
+.item-billbord__value {
+    font-size: 72px;
+    line-height: 133%;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f78000;
+}
+.item-billbord p {
+    margin: 0;
+}
+.item-billbord__icon {
+    width: 144px;
+    height: 144px;
+    right: 48px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+}
+.item-billbord__icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.benefits {
+    padding-bottom: 80px;
+    color: #000;
+    font-family: "PTSans";
+}
+.title-section {
+    font-size: 48px;
+    margin-bottom: 16px;
+    line-height: 133%;
+    font-weight: 700;
+}
+.descr-section {
+    font-size: 32px;
+    margin-bottom: 40px;
+    line-height: 125%; 
+}
+.unti-box {
+    height: 720px;
+    padding: 80px 40px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.unti-box__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 24px;
+    background: #000;
+    overflow: hidden;
+}
+.unti-box__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+    opacity: 0.8;
+}
+.unti-box__image::after {
+    position: absolute;
+    display: block;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(247, 128, 0, 0.15), rgba(247, 128, 0, 0.15));
+}
+.row.row_main > div {
+    margin-bottom: 30px;
+}
+.row.row_main {
+    margin-bottom: -30px;
+}
+.item-box {
+    padding: 40px;
+    font-size: 24px;
+    gap: 40px;
+    line-height: 133%;
+    border-radius: 24px;
+    background: rgba(221, 221, 221, 0.8);
+    min-height: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.item-box__icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 48px;
+    box-shadow: 0 10px 40px 0 rgba(247, 128, 0, 0.5);
+    background: #f78000;
+    flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-box__icon img {
+    width: 72px;
+    height: auto;
+}
+.item-box__title {
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+.item-box p {
+    margin: 0;
+}
+.benefits_reverse .col-lg-8 {
+    order: -1;
+}
+.benefits_reverse .unti-box {
+    text-align: left;
+    align-items: flex-start;
+}
+.unti-box .title-section:last-child {
+    margin: 0;
+}
+.unti-box .descr-section {
+    margin: 0;
+}
+
+.questions {
+    padding-top: 80px;
+    font-family: "PTSans";
+    color: #000;
+}
+.questions__block {
+    padding: 80px;
+    border-radius: 24px;
+    background: rgba(221, 221, 221, 0.8);
+}
+.questions .title-section {
+    margin-bottom: 24px;
+}
+.item-question {
+    font-size: 24px;
+    line-height: 133%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.item-question.active {
+    border-bottom: 1px solid rgba(0, 0, 0, 1); 
+}
+.item-question__head {
+    padding: 20px;
+    gap: 15px;
+    padding-left: 0;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.item-question__head::after {
+    position: relative;
+    display: block;
+    content: " ";
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    flex: none;
+    transition: all 0.3s;
+    background-image: url(../images/ic_arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: all 0.3s;
+}
+.item-question.active .item-question__head::after {
+    transform: rotate(180deg);
+}
+.item-question__content {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: none;
+}
+.item-question__content p {
+    margin: 0;
+}
+.item-question__content a {
+    color: #f78000;
+    border-bottom: 1px #f78000 solid;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.item-question__content a:hover {
+    border-color: transparent;
+}
+
+.consultation {
+    padding: 80px 0;
+    font-family: "PTSans";
+    color: #000;
+}
+.consultation__main,
+.form-page {
+    padding: 80px;
+    border-radius: 24px;
+    background: rgba(221, 221, 221, 0.8);
+    position: relative;
+    z-index: 1;
+}
+.form-page__content {
+    padding: 0 29px;
+}
+.item-form {
+    margin-bottom: 20px;
+    position: relative;
+}
+.item-form input,
+.item-form textarea {
+    height: 60px;
+    font-size: 16px;
+    padding-top: 10px;
+    line-height: 140%;
+    color: #000;
+    text-align: center;
+    border: 1px solid #999999;
+    width: 100%;
+    background: #fff;
+    transition: all 0.3s;
+    font-family: "PTSans";
+    outline: none;
+    border-radius: 4px;
+}
+.item-form textarea {
+    height: 120px;
+    padding-top: 19px;
+    resize: none;
+}
+.item-form__title {
+    font-size: 18px;
+    top: 17px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #666666;
+    position: absolute;
+    transition: all 0.3s;
+    pointer-events: none;
+}
+.item-form.filled .item-form__title,
+.item-form.active .item-form__title {
+    top: 11px;
+    font-size: 10px;
+}
+.descr-title {
+    font-size: 24px;
+    line-height: 133%;
+}
+.consultation__main .title-section,
+.form-page .title-section {
+    margin-bottom: 24px;
+    text-align: center;
+}
+.consultation__main .descr-section,
+.form-page .descr-title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.form-page .descr-title a {
+    color: #000;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.form-page .btn-main {
+    padding: 0 10px;
+    width: 100%;
+}
+.btn-main {
+    height: 60px;
+    padding: 0 40px;
+    font-size: 18px;
+    color: #fff;
+    font-family: "PTSans";
+    background: #F78000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+    border-radius: 4px;
+}
+.btn-main:hover {
+    background: #ff9d00;
+}
+.consultation__value {
+    font-size: 72px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f78000;
+    font-weight: 700;
+}
+.consultation__value a {
+    color: #f78000;
+    text-decoration: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.consultation__image {
+    top: 140px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+}
+.consultation__image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
