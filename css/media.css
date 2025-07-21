@@ -1,104 +1,116 @@
 /*==========  Desktop First Method  ==========*/
 @media only screen and (max-width : 1600px) {
-.billbord__descr {
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-.billbord__title {
-    font-size: 66px;
-    margin-bottom: 13px;
-}
-.descr-title,
-.item-question,
-.item-box,
-.item-billbord,
-.billbord__text {
-    font-size: 21px;
-}
-.billbord__image {
-    height: 350px;
-}
-.billbord__image img {
-    width: 1100px;
-    left: -152px;
-    top: 9px;
-}
-.item-billbord {
-    padding: 33px;
-}
-.consultation__value,
-.item-billbord__value {
-    font-size: 66px;
-}
-.benefits,
-.billbord {
-    padding-bottom: 60px;
-}
-.questions {
-    padding-top: 60px;
-}
-.consultation {
-    padding: 60px 0;
-}
-.title-section {
-    font-size: 44px;
-    margin-bottom: 14px;
-}
-.descr-section {
-    font-size: 29px;
-    margin-bottom: 35px;
-}
-.item-box {
-    padding: 30px;
-    gap: 20px;
-}
-.item-box__icon {
-    width: 105px;
-    height: 105px;
-    border-radius: 36px;
-}
-.item-box__title {
-    margin-bottom: 10px;
-}
-.item-box__icon img {
-    width: 64px;
-}
-.unti-box {
-    height: 622px;
-    padding: 50px 30px;
-}
-.consultation__main, .form-page,
-.questions__block {
-    padding: 60px;
-}
-.questions .title-section {
-    margin-bottom: 18px;
-}
-.item-question__head::after {
-    width: 35px;
-    height: 35px;
-}
-.item-question__head {
-    padding: 16px;
-    padding-left: 0;
-}
-.consultation__main .descr-section, .form-page .descr-title {
-    margin-bottom: 30px;
-}
-.form-page__content {
-    padding: 0 10px;
-}
-.item-billbord__icon {
-    width: 125px;
-    height: 125px;
-    right: 30px;
-}
-.consultation__image {
-    top: 115px;
-}
-.consultation__main .title-section, .form-page .title-section {
-    margin-bottom: 16px;
-}
+    .billbord__descr {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .billbord__title {
+        font-size: 66px;
+        margin-bottom: 13px;
+    }
+    .descr-title,
+    .item-question,
+    .item-box,
+    .item-billbord,
+    .billbord__text {
+        font-size: 21px;
+    }
+    .billbord__image {
+        height: 350px;
+    }
+    .billbord__image img {
+        width: 1100px;
+        left: -152px;
+        top: 9px;
+    }
+    .item-billbord {
+        padding: 33px;
+    }
+    .consultation__value,
+    .item-billbord__value {
+        font-size: 66px;
+    }
+    .benefits,
+    .billbord {
+        padding-bottom: 60px;
+    }
+    .questions {
+        padding-top: 60px;
+    }
+    .consultation {
+        padding: 60px 0;
+    }
+    .title-section {
+        font-size: 44px;
+        margin-bottom: 14px;
+    }
+    .descr-section {
+        font-size: 29px;
+        margin-bottom: 35px;
+    }
+    .item-box {
+        padding: 30px;
+        gap: 20px;
+    }
+    .item-box__icon {
+        width: 105px;
+        height: 105px;
+        border-radius: 36px;
+    }
+    .item-box__title {
+        margin-bottom: 10px;
+    }
+    .item-box__icon img {
+        width: 64px;
+    }
+    .unti-box {
+        height: 622px;
+        padding: 50px 30px;
+    }
+    .consultation__main, .form-page,
+    .questions__block {
+        padding: 60px;
+    }
+    .questions .title-section {
+        margin-bottom: 18px;
+    }
+    .item-question__head::after {
+        width: 35px;
+        height: 35px;
+    }
+    .item-question__head {
+        padding: 16px;
+        padding-left: 0;
+    }
+    .consultation__main .descr-section, .form-page .descr-title {
+        margin-bottom: 30px;
+    }
+    .form-page__content {
+        padding: 0 10px;
+    }
+    .item-billbord__icon {
+        width: 125px;
+        height: 125px;
+        right: 30px;
+    }
+    .consultation__image {
+        top: 115px;
+    }
+    .consultation__main .title-section, .form-page .title-section {
+        margin-bottom: 16px;
+    }
+    .consultation__image img {
+        max-width: 790px;
+    }
+    .consultation {
+        overflow: hidden;
+    }
+    .consultation__image {
+        top: 95px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1260px) {
@@ -180,17 +192,11 @@
     .form-page__content {
         padding: 0;
     }
-    .consultation__image img {
-        max-width: 700px;
-    }
-    .consultation {
-        overflow: hidden;
-    }
     .consultation__image {
         top: 22px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    }
+    .consultation__image img {
+        max-width: 700px;
     }
 }
 
